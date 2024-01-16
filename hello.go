@@ -2,8 +2,13 @@
 // Click here and start typing.
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"rsc.io/quote/v4"
+)
 
 func main() {
-	fmt.Println("Hello, 世界")
+	fmt.Println(quote.Go())
+
 }
